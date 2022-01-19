@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-white-color: #f5f4fa;
+  --icon-primary: #afb1b8;
 }
 
 body {
@@ -40,6 +41,10 @@ a {
 
 .link {
   text-decoration: none;
+}
+
+.icon {
+  fill: var(--icon-primary);
 }
 
 /* Logo */
@@ -88,6 +93,16 @@ header {
 .header-contact {
   margin-left: auto;
   display: flex;
+}
+
+.header-contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-contact-icon {
+  margin-right: 10px;
 }
 
 .site-nav {
@@ -140,9 +155,19 @@ header {
 /* Hero */
 
 .hero {
-  background-color: #2f303a;
   padding: 200px 452px;
   text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/bg-hero.jpg);
+  background-color: var(--first-bg-color);
 }
 
 .hero-wrpper {
