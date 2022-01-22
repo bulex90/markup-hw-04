@@ -273,6 +273,39 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.social-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+
+.social-icon-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-icon-link:hover .social-icon {
+  fill: var(--primary-white-color);
+}
+.social-icon-link {
+}
+
+.social-icon {
+  fill: var(--icon-primary);
+}
 
 .team-list .description {
   margin-top: 10px;
