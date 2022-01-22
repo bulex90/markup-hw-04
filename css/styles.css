@@ -326,6 +326,35 @@ header {
   padding-top: 0px;
 }
 
+/* Partners */
+
+.partners-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners-list-link {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: solid 1px var(--icon-primary);
+  border-radius: 4px;
+}
+
+.partners-list-link:hover .partners-list-icon,
+.partners-list-link:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.partners-list-icon {
+  fill: var(--icon-primary);
+}
+
 /* Button */
 
 .button {
