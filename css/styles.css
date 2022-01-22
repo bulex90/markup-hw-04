@@ -170,9 +170,6 @@ header {
   background-color: var(--first-bg-color);
 }
 
-.hero-wrpper {
-}
-
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -205,7 +202,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* Features & Team */
+/* Features */
 
 .features-list {
   display: flex;
@@ -235,6 +232,8 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+/* Team */
 
 .section-team {
   background-color: #f5f4fa;
@@ -273,11 +272,22 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.team-list .description {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Social icons */
+
 .social-icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
 }
 
 .social-icon-link {
@@ -303,10 +313,6 @@ header {
 
 .social-icon {
   fill: var(--icon-primary);
-}
-
-.team-list .description {
-  margin-top: 10px;
 }
 
 /* Сlasses */
@@ -447,6 +453,10 @@ header {
   padding-bottom: 60px;
 }
 
+.footer-contacts-wrapper {
+  display: flex;
+}
+
 .footer-contact .link,
 .footer-contact .adress {
   font-style: normal;
@@ -469,4 +479,17 @@ header {
 
 .footer-contact .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.social-icon-wrapper {
+  margin-top: 20px;
+}
+
+.footer-sociale-title {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
