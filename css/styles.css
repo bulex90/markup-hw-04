@@ -300,8 +300,6 @@ header {
 .social-icon-link:hover .social-icon {
   fill: var(--primary-white-color);
 }
-.social-icon-link {
-}
 
 .social-icon {
   fill: var(--icon-primary);
